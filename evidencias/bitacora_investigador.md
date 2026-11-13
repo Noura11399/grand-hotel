@@ -1,13 +1,15 @@
 # 📝 Bitácora de Investigación - Gran Hotel Olimpo
-**Equipo Auditor:** [Nombre Piloto] & [Nombre Copiloto]  
-**Fecha:** [DD/MM/AAAA]
+**Equipo Auditor:** Noura Boukhriss & Olena Kuchaba   
+**Fecha:** 13/11/2002
 
 ---
 
 ## 1. 🔑 Hallazgo Inicial (Puerta 1 - Git Bash)
-* **Comando utilizado para encontrar la credencial oculta:** `...`
-* **Código de la Llave Maestra:** `...`
-* **Primera anomalía detectada en el servidor:** 
+* **Comando utilizado para encontrar la credencial oculta:** `ls -la`
+* **Código de la Llave Maestra:** `GH-OLIMPO-DATA-2026-KEY`
+* **Primera anomalía detectada en el servidor: Revisando la carpeta `data/reservas_raw.csv`, hemos descubierto que el atacante 
+   introdujo 10 FILAS TOTALMENTE DUPLICADAS e intencionadamente dejó celdas 
+   vacías (NaN) en precios y noches.  
 
 ---
 
